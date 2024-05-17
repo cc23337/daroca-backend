@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y5UCxA5xlq6IM0c5wLmrSEv3Q80OQDZfS0q0mWw854kF4UQVIc2f0HXIlpR+hEExzYk6kE6zjVhge8mD6Q6gJg==",
+  "dgSpecHash": "MQS2xQUFJGIk+HabVFRcCLKVrYxH2ZzisxI5pwlRWMO7tJDTy4voOEaqfkOjRGbdmV3iXWWFSk5vPdPuRyxaCA==",
   "success": true,
-  "projectFilePath": "/Users/u23337/Documents/daroca-backend/daroca-backend.csproj",
+  "projectFilePath": "/Users/u23337/Desktop/C_projetos/projetinho/daroca-backend/daroca-backend.csproj",
   "expectedPackageFiles": [
     "/Users/u23337/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/u23337/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",

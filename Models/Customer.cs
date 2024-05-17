@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 public class Customer
 {
     [Key] //PrimaryKey
-    public int ID { get; set; }
+    public int Id { get; set; }
 
     [Required] //mesmo que "obrigatorio"
     [MaxLength(50)]
