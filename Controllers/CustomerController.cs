@@ -6,13 +6,13 @@ public class CustomerController : ControllerBase
 {
     private readonly DatabaseContext context;
 
-    public CustomerController(DatabaseContext context) //eh o construtor fi
+    public CustomerController(DatabaseContext context) //eh o construtor 
     {
         this.context = context;
     }
 
     [HttpGet] //GET
-    public ActionResult<IEnumerable<Customer>> GetCustomers() 
+    public ActionResult<IEnumerable<Customer>> GetCustomer() 
     {
         return this.context.Customer.ToList();
     }

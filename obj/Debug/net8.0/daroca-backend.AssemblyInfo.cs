@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("daroca-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72e9a4aa031de3d4f0c0fd91c4d8119c313d1551")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02f059e8cfe8b6fc6a9344985f8822b1c9a5402d")]
 [assembly: System.Reflection.AssemblyProductAttribute("daroca-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("daroca-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
