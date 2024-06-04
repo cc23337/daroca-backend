@@ -12,7 +12,7 @@ public class ProductCategoryController : ControllerBase
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<ProductCategory>> GetProductsCategorys()
+    public ActionResult<IEnumerable<ProductCategory>> GetProductCategory()
     {
         return this.context.ProductCategory.ToList();
     }
@@ -43,7 +43,7 @@ public class ProductCategoryController : ControllerBase
         return CreatedAtAction(nameof(GetProductCategory), new {id = productCategory.ProductCategoryId}, productCategory);
     }
 
-    [HttpDelete]
+    [HttpDelete("{id}")]
     public ActionResult<ProductCategory> DeleteProductCategory(int id)
     {
         var productCategory = this.context.ProductCategory.Find(id);

@@ -12,7 +12,7 @@ public class ProductController : ControllerBase
     }
 
     [HttpGet]
-    public ActionResult<IEnumerable<Product>> GetProducts()
+    public ActionResult<IEnumerable<Product>> GetProduct()
     {
         return this.context.Product.ToList();
     }
@@ -43,7 +43,7 @@ public class ProductController : ControllerBase
         return CreatedAtAction(nameof(GetProduct), new {id = product.ProductId}, product);
     }
 
-    [HttpDelete]
+    [HttpDelete("{id}")]
     public ActionResult<Product> DeleteProduct(int id)
     {
         var product = this.context.Product.Find(id);

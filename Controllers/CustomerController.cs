@@ -44,7 +44,7 @@ public class CustomerController : ControllerBase
         return CreatedAtAction(nameof(GetCustomer), new {id = customer.CustomerId}, customer);
     }
 
-    [HttpDelete]
+    [HttpDelete("{id}")]
     public ActionResult<Customer> DeleteCustomer(int id)
     {
         var customer = this.context.Customer.Find(id);

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 //parcial classe escria em dois ou mais arquivos(continua em um e termina na outra
-public partial class DatabaseContext : DbContext 
+public partial class DatabaseContext : DbContext //
 {
     public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
     {
@@ -53,4 +53,6 @@ public partial class DatabaseContext : DbContext
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+    //executar esse comando "dotnet dev-certs https --trust" pois o projeto quer uma rota https segura!!🛠️
 }
