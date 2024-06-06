@@ -9,7 +9,6 @@ public partial class DatabaseContext : DbContext //
     {
 
     }
-
     //virtul(polimorfismo)
     public virtual DbSet<Customer> Customer { get; set; } //se não usar o DbSet o controller não funciona!
     public virtual DbSet<Product> Product{ get; set; }
@@ -55,4 +54,6 @@ public partial class DatabaseContext : DbContext //
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 
     //executar esse comando "dotnet dev-certs https --trust" pois o projeto quer uma rota https segura!!🛠️
+    //dotnet ef datebase update - update na tabela
+    //dotnet run - roda o código
 }
